@@ -1487,3 +1487,9 @@ textarea.form-input {
     text-align: center;
   }
 }
+/* Portfolio visibility fallback */
+.reveal {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+}
