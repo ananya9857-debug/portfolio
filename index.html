@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ananya Verma | B.Tech CSE Student & Aspiring Software Developer</title>
+  <meta name="description" content="Personal portfolio of Ananya Verma, a 1st-year B.Tech Computer Science and Engineering student at JECRC University, Jaipur. Exploring programming, web development, and digital technology.">
+  <meta name="author" content="Ananya Verma">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header>
+    <nav class="navbar" id="navbar" aria-label="Main Navigation">
+      <div class="container nav-container">
+        <!-- Brand Monogram -->
+        <a href="#home" class="nav-brand" aria-label="Ananya Verma Portfolio">
+          <span class="brand-badge">AV</span>
+          <span>Ananya Verma</span>
+        </a>
+
+        <!-- Navigation Menu -->
+        <ul class="nav-menu" id="nav-menu" role="menu">
+          <li role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+          <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+          <li role="none"><a href="#education" class="nav-link" role="menuitem">Education</a></li>
+          <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+          <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+          <li role="none"><a href="#achievements" class="nav-link" role="menuitem">Achievements</a></li>
+          <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+        </ul>
+
+        <!-- Navigation Actions (Resume Link) -->
+        <div class="nav-actions">
+          <a href="resume.html" class="btn-resume" title="View Full Web Resume">
+            <i class="fa-regular fa-file-lines"></i>
+            <span>Resume</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         1. HOME SECTION
+         ========================================================================= -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Introduction & CTA -->
+          <div class="hero-content reveal">
+            <div class="hero-badge">
+              <span class="status-dot"></span>
+              <span>1st Year B.Tech CSE &bull; JECRC University, Jaipur</span>
+            </div>
+
+            <!-- Name -->
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Ananya Verma</span>
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="hero-subtitle">
+              B.Tech CSE Student | Aspiring Software Developer
+            </p>
+
+            <!-- Short Introduction -->
+            <p class="hero-desc">
+              I am a first-year Computer Science and Engineering student at JECRC University, Jaipur. I am enthusiastic about programming, web development, and digital technology, and I look forward to building practical problem-solving skills and creating helpful software solutions.
+            </p>
+
+            <!-- Action Buttons -->
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fa-solid fa-folder-open"></i>
+                <span>View My Projects</span>
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Contact Me</span>
+              </a>
+              <a href="resume.html" class="btn btn-outline" style="border-color: rgba(56, 189, 248, 0.4); color: var(--primary);">
+                <i class="fa-regular fa-file-lines"></i>
+                <span>View Resume</span>
+              </a>
+            </div>
+
+            <!-- GitHub and LinkedIn Buttons -->
+            <div class="hero-social-block">
+              <span class="social-label">Profiles:</span>
+              <div class="social-links">
+                <!-- GitHub Placeholder -->
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile (Placeholder)" title="GitHub (Placeholder)">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <!-- LinkedIn Placeholder -->
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile (Placeholder)" title="LinkedIn (Placeholder)">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <!-- Direct Email -->
+                <a href="mailto:ananya.verma@example.com" class="social-btn" aria-label="Email Ananya" title="Email (ananya.verma@example.com)">
+                  <i class="fa-regular fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Profile Image Placeholder -->
+          <div class="hero-media reveal">
+            <div class="avatar-wrapper">
+              <div class="avatar-glow"></div>
+              <div class="avatar-frame">
+                <!-- Profile Image: Easily replace assets/images/avatar.svg with your photo e.g. assets/images/profile.jpg -->
+                <img src="assets/images/avatar.svg" alt="Ananya Verma - Profile Illustration" class="avatar-img" id="profile-img">
+              </div>
+              <div class="photo-hint">
+                <i class="fa-solid fa-camera-rotate"></i>
+                <span>Replaceable image in <code>assets/images/avatar.svg</code></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         2. ABOUT ME SECTION
+         ========================================================================= -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-badge">
+            <i class="fa-regular fa-user"></i>
+            <span>Overview</span>
+          </div>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-description">
+            A natural introduction to my background, current learning focus, and technological interests.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Genuine Description -->
+          <div class="about-info-col reveal">
+            <p class="about-text">
+              I am a first-year <strong>B.Tech Computer Science and Engineering</strong> student at <strong>JECRC University</strong> in <strong>Jaipur, Rajasthan</strong>.
+            </p>
+            <p class="about-text">
+              As a beginner stepping into the tech world, I am genuinely curious about how computer systems operate and how software is built from the ground up. I am currently learning fundamental programming concepts in <strong>C/C++</strong> and <strong>Python</strong>, while discovering front-end styling and structure with <strong>HTML &amp; CSS</strong>.
+            </p>
+            <p class="about-text">
+              Alongside core programming, I actively develop strong written and verbal communication, creative thinking, and digital research abilities. I enjoy participating in student projects, analyzing real-life problems, and learning new tools that make workflows more efficient. My current aim is to build a steady engineering foundation and prepare for technical internships and collaborative opportunities.
+            </p>
+
+            <!-- Focus Pillars -->
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <div class="highlight-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <h4>Programming Fundamentals</h4>
+                <p>Learning C/C++ and Python syntax, logic building, and problem decomposition.</p>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon"><i class="fa-solid fa-globe"></i></div>
+                <h4>Web Development</h4>
+                <p>Exploring HTML5 semantic layouts, responsive design, and CSS styling.</p>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                <h4>Content &amp; Research</h4>
+                <p>Writing clear technical documentation and conducting structured digital research.</p>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <h4>Creative Thinking</h4>
+                <p>Brainstorming civic solutions and collaborative hackathon concepts.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Quick Profile Summary Card -->
+          <div class="facts-card reveal">
+            <div class="facts-card-header">
+              <h3>Student Snapshot</h3>
+              <p>Undergraduate Profile &bull; 2026 Batch</p>
+            </div>
+
+            <div class="facts-list">
+              <div class="fact-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong>Degree:</strong>
+                  <span style="color: var(--text-secondary); display: block;">B.Tech in CSE (1st Year)</span>
+                </div>
+              </div>
+
+              <div class="fact-item">
+                <i class="fa-solid fa-building-columns"></i>
+                <div>
+                  <strong>College:</strong>
+                  <span style="color: var(--text-secondary); display: block;">JECRC University</span>
+                </div>
+              </div>
+
+              <div class="fact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Location:</strong>
+                  <span style="color: var(--text-secondary); display: block;">Jaipur, Rajasthan</span>
+                </div>
+              </div>
+
+              <div class="fact-item">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <strong>Academic Period:</strong>
+                  <span style="color: var(--text-secondary); display: block;">2026 – Present</span>
+                </div>
+              </div>
+
+              <div class="fact-item">
+                <i class="fa-solid fa-bullseye"></i>
+                <div>
+                  <strong>Interest Areas:</strong>
+                  <span style="color: var(--text-secondary); display: block;">Software Development, Web Tech &amp; Problem Solving</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. EDUCATION SECTION
+         ========================================================================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-badge">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Academic Background</span>
+          </div>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <p class="section-description">
+            My formal schooling and current university engineering program.
+          </p>
+        </div>
+
+        <div class="education-timeline reveal">
+          <!-- Timeline Entry 1: B.Tech CSE -->
+          <div class="edu-item">
+            <div class="edu-dot" aria-hidden="true"></div>
+            <div class="edu-card">
+              <div class="edu-card-top">
+                <span class="edu-period">
+                  <i class="fa-regular fa-calendar-days"></i> 2026 – Present
+                </span>
+                <span class="edu-status">1st Year &bull; Current</span>
+              </div>
+              <h3 class="edu-title">B.Tech – Computer Science and Engineering</h3>
+              <div class="edu-institution">
+                <i class="fa-solid fa-building-columns"></i>
+                <span>JECRC University, Jaipur</span>
+              </div>
+              <p class="edu-desc">
+                Currently pursuing the first year of undergraduate studies, developing strong fundamentals in computer programming, engineering mathematics, digital systems, and problem-solving principles.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Entry 2: Class 12 -->
+          <div class="edu-item">
+            <div class="edu-dot" aria-hidden="true"></div>
+            <div class="edu-card">
+              <div class="edu-card-top">
+                <span class="edu-period">
+                  <i class="fa-regular fa-calendar-days"></i> Higher Secondary
+                </span>
+                <span class="edu-status" style="color: var(--primary);">Completed</span>
+              </div>
+              <h3 class="edu-title">Class 12 (Higher Secondary Education)</h3>
+              <div class="edu-institution">
+                <i class="fa-solid fa-school"></i>
+                <span>MP Board (Madhya Pradesh Board of Secondary Education)</span>
+              </div>
+              <p class="edu-desc">
+                Completed intermediate secondary education under the MP Board, building rigorous computational, analytical, and logical foundations that led to pursuing Computer Science Engineering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. SKILLS SECTION
+         ========================================================================= -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-badge">
+            <i class="fa-solid fa-layer-group"></i>
+            <span>Capabilities</span>
+          </div>
+          <h2 class="section-title">Technical &amp; Professional <span class="gradient-text">Skills</span></h2>
+          <p class="section-description">
+            All skills reflect my current learning stage as a first-year student, combining programming basics, productivity tools, and communication.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Card 1: Programming & Web -->
+          <div class="skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div>
+                <h3>Programming &amp; Web</h3>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">Core languages &amp; markup</p>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <!-- C/C++ Programming -->
+              <div class="skill-item-card">
+                <div class="skill-name-col">
+                  <i class="fa-solid fa-terminal"></i>
+                  <span class="skill-name">C/C++ Programming</span>
+                </div>
+                <span class="skill-badge beginner">Beginner</span>
+              </div>
+
+              <!-- Python -->
+              <div class="skill-item-card">
+                <div class="skill-name-col">
+                  <i class="fa-brands fa-python"></i>
+                  <span class="skill-name">Python</span>
+                </div>
+                <span class="skill-badge beginner">Beginner</span>
+              </div>
+
+              <!-- HTML & CSS -->
+              <div class="skill-item-card">
+                <div class="skill-name-col">
+                  <i class="fa-brands fa-html5"></i>
+                  <span class="skill-name">HTML &amp; CSS</span>
+                </div>
+                <span class="skill-badge beginner">Beginner</span>
+              </div>
+
+              <!-- Basic Web Development -->
+              <div class="skill-item-card">
+                <div class="skill-name-col">
+                  <i class="fa-solid fa-globe"></i>
+                  <span class="skill-name">Basic Web Development</span>
+                </div>
+                <span class="skill-badge active">Foundations</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Productivity & Digital Tools -->
+          <div class="skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon" style="color: var(--secondary); background: rgba(99, 102, 241, 0.15);">
+                <i class="fa-solid fa-toolbox"></i>
+              </div>
+              <div>
+                <h3>Digital Tools &amp; Research</h3>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">Software &amp; data collection</p>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <!-- Google Forms -->
+              <div class="skill-item-card">
+                <div class="skill-name-col">
+                  <i class="fa-solid fa-square-poll-vertical"></i>
+                  <span class="skill-name">Google Forms</span>
+                </div>
+                <span class="skill-badge active">Surveys &amp; Data</span>
+              </div>
+
+              <!-- Microsoft Word -->
+              <div class="skill-item-card">
+                <div class="skill-name-col">
+                  <i class="fa-solid fa-file-word"></i>
+                  <span class="skill-name">Microsoft Word</span>
+                </div>
+                <span class="skill-badge active">Documentation</span>
+              </div>
+
+              <!-- Digital Research -->
+              <div class="skill-item-card">
+                <div class="skill-name-col">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <span class="skill-name">Digital Research</span>
+                </div>
+                <span class="skill-badge active">Information Analysis</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Professional & Soft Skills -->
+          <div class="skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon" style="color: var(--accent-emerald); background: rgba(16, 185, 129, 0.15);">
+                <i class="fa-solid fa-user-check"></i>
+              </div>
+              <div>
+                <h3>Professional &amp; Soft Skills</h3>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">Communication &amp; mindset</p>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <!-- Communication Skills -->
+              <div class="skill-item-card">
+                <div class="skill-name-col">
+                  <i class="fa-solid fa-comments"></i>
+                  <span class="skill-name">Communication Skills</span>
+                </div>
+                <span class="skill-badge active">Verbal &amp; Written</span>
+              </div>
+
+              <!-- Content Writing -->
+              <div class="skill-item-card">
+                <div class="skill-name-col">
+                  <i class="fa-solid fa-pen-nib"></i>
+                  <span class="skill-name">Content Writing</span>
+                </div>
+                <span class="skill-badge active">Clarity &amp; Tone</span>
+              </div>
+
+              <!-- Creative Thinking -->
+              <div class="skill-item-card">
+                <div class="skill-name-col">
+                  <i class="fa-solid fa-lightbulb"></i>
+                  <span class="skill-name">Creative Thinking</span>
+                </div>
+                <span class="skill-badge active">Idea Generation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. PROJECTS SECTION
+         ========================================================================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-badge">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>Practical Experience</span>
+          </div>
+          <h2 class="section-title">Academic &amp; Student <span class="gradient-text">Projects</span></h2>
+          <p class="section-description">
+            Hands-on assignments, surveys, and digital projects created during my first year of studies.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 1: Personal Portfolio Website -->
+          <article class="project-card reveal">
+            <div class="project-card-header">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-laptop-file"></i>
+              </div>
+              <span class="student-tag">Student Project</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">
+                A clean, modern, and responsive student developer portfolio created to document my academic progress, technical skills, and coursework projects. Built with semantic HTML, custom CSS styling, and responsive layout principles.
+              </p>
+
+              <div class="project-tags">
+                <span class="project-tag-pill">HTML5</span>
+                <span class="project-tag-pill">CSS3</span>
+                <span class="project-tag-pill">Responsive Design</span>
+                <span class="project-tag-pill">Web Basics</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-status-note">
+                  <i class="fa-solid fa-circle-check"></i> Live Portfolio
+                </span>
+                <a href="#home" style="color: var(--primary); font-weight: 600; font-size: 0.85rem;">
+                  View Live <i class="fa-solid fa-arrow-up"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Cafeteria Feedback Google Form -->
+          <article class="project-card reveal">
+            <div class="project-card-header">
+              <div class="project-icon-box" style="color: var(--secondary); background: rgba(99, 102, 241, 0.15);">
+                <i class="fa-solid fa-square-poll-vertical"></i>
+              </div>
+              <span class="student-tag">Student Project</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Cafeteria Feedback Google Form</h3>
+              <p class="project-desc">
+                An organized survey tool designed using Google Forms to gather constructive feedback on campus cafeteria quality, hygiene, and pricing. Demonstrates practical data collection, survey structure design, and analysis of student responses.
+              </p>
+
+              <div class="project-tags">
+                <span class="project-tag-pill">Google Forms</span>
+                <span class="project-tag-pill">Survey Design</span>
+                <span class="project-tag-pill">Data Collection</span>
+                <span class="project-tag-pill">Campus Feedback</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-status-note">
+                  <i class="fa-solid fa-circle-check"></i> Completed Assignment
+                </span>
+                <span style="color: var(--text-muted); font-size: 0.82rem;">Academic Activity</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Digital Data and Literacy Assignment -->
+          <article class="project-card reveal">
+            <div class="project-card-header">
+              <div class="project-icon-box" style="color: var(--accent-emerald); background: rgba(16, 185, 129, 0.15);">
+                <i class="fa-solid fa-book-bookmark"></i>
+              </div>
+              <span class="student-tag">Student Project</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Digital Data and Literacy Assignment</h3>
+              <p class="project-desc">
+                A structured academic research assignment analyzing the importance of digital literacy, online data ethics, and safe internet usage for students. Formatted with professional typography, citations, and headings using Microsoft Word.
+              </p>
+
+              <div class="project-tags">
+                <span class="project-tag-pill">Digital Research</span>
+                <span class="project-tag-pill">Content Writing</span>
+                <span class="project-tag-pill">Microsoft Word</span>
+                <span class="project-tag-pill">Data Literacy</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-status-note">
+                  <i class="fa-solid fa-circle-check"></i> Academic Report
+                </span>
+                <span style="color: var(--text-muted); font-size: 0.82rem;">College Coursework</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: Civic Problem / Hackathon Idea -->
+          <article class="project-card reveal">
+            <div class="project-card-header">
+              <div class="project-icon-box" style="color: #f59e0b; background: rgba(245, 158, 11, 0.15);">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <span class="student-tag">Student Project</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Civic Problem / Hackathon Idea</h3>
+              <p class="project-desc">
+                A proposed concept formulated for student hackathons addressing a community issue such as urban waste management tracking or local resource accessibility. Involves problem statement framing, workflow diagrams, and tech solution planning.
+              </p>
+
+              <div class="project-tags">
+                <span class="project-tag-pill">Creative Thinking</span>
+                <span class="project-tag-pill">Problem Solving</span>
+                <span class="project-tag-pill">Hackathon Concept</span>
+                <span class="project-tag-pill">Idea Framing</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-status-note" style="color: #f59e0b;">
+                  <i class="fa-regular fa-lightbulb"></i> Conceptual Prototype
+                </span>
+                <span style="color: var(--text-muted); font-size: 0.82rem;">Proposal Stage</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. CERTIFICATIONS / ACHIEVEMENTS SECTION (Ready to Add / Template)
+         ========================================================================= -->
+    <section class="section section-alt" id="achievements">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-badge">
+            <i class="fa-solid fa-award"></i>
+            <span>Milestones</span>
+          </div>
+          <h2 class="section-title">Certifications &amp; <span class="gradient-text">Achievements</span></h2>
+          <p class="section-description">
+            A dedicated section prepared for future certifications, competitions, workshops, and college accomplishments.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Placeholder Card 1: Technical Certifications -->
+          <div class="achievement-placeholder-card reveal">
+            <div class="achieve-header">
+              <div class="achieve-icon">
+                <i class="fa-solid fa-certificate"></i>
+              </div>
+              <div>
+                <h3>Technical Certifications</h3>
+              </div>
+            </div>
+            <span class="achieve-badge">Section Ready to Populate</span>
+            <p class="achieve-desc">
+              Reserved space to list future credentials in programming (C/C++, Python), web development, and digital skills from platforms like Coursera, HackerRank, NPTEL, or university courses.
+            </p>
+            <div class="achieve-instructions">
+              <i class="fa-solid fa-pen-to-square"></i>
+              <span>Open <code>index.html</code> to add your earned certificates.</span>
+            </div>
+          </div>
+
+          <!-- Placeholder Card 2: Competitions & Hackathons -->
+          <div class="achievement-placeholder-card reveal">
+            <div class="achieve-header">
+              <div class="achieve-icon" style="color: var(--secondary);">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <div>
+                <h3>Competitions &amp; Hackathons</h3>
+              </div>
+            </div>
+            <span class="achieve-badge">Section Ready to Populate</span>
+            <p class="achieve-desc">
+              Reserved space to highlight participations, presentations, and wins in college coding contests, project exhibitions, and hackathons at JECRC University and beyond.
+            </p>
+            <div class="achieve-instructions">
+              <i class="fa-solid fa-pen-to-square"></i>
+              <span>Add your competition titles and dates here.</span>
+            </div>
+          </div>
+
+          <!-- Placeholder Card 3: Workshops & Seminars -->
+          <div class="achievement-placeholder-card reveal">
+            <div class="achieve-header">
+              <div class="achieve-icon" style="color: var(--accent-emerald);">
+                <i class="fa-solid fa-calendar-check"></i>
+              </div>
+              <div>
+                <h3>Workshops &amp; Seminars</h3>
+              </div>
+            </div>
+            <span class="achieve-badge">Section Ready to Populate</span>
+            <p class="achieve-desc">
+              Reserved space to record technical seminars, hands-on developer bootcamps, and guest lectures attended on modern software engineering practices.
+            </p>
+            <div class="achieve-instructions">
+              <i class="fa-solid fa-pen-to-square"></i>
+              <span>Add workshops you attend during your degree.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. CONTACT SECTION
+         ========================================================================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-badge">
+            <i class="fa-regular fa-paper-plane"></i>
+            <span>Get in Touch</span>
+          </div>
+          <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+          <p class="section-description">
+            Feel free to reach out for student collaborations, project discussions, or internship inquiries.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Contact Cards -->
+          <div class="contact-cards-col reveal">
+            <!-- Email -->
+            <div class="contact-card-box">
+              <div class="contact-icon-wrap">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="contact-info-text">
+                <h4>Email</h4>
+                <a href="mailto:ananya.verma@example.com">ananya.verma@example.com</a>
+                <div>
+                  <button type="button" class="copy-btn" id="copy-email-btn" title="Copy email address">
+                    <i class="fa-regular fa-copy"></i>
+                    <span>Copy Email</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-card-box">
+              <div class="contact-icon-wrap" style="color: #38bdf8; background: rgba(56, 189, 248, 0.15);">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="contact-info-text">
+                <h4>LinkedIn Profile</h4>
+                <!-- Placeholder Link -->
+                <a href="https://linkedin.com/in/ananya-verma" target="_blank" rel="noopener noreferrer">
+                  linkedin.com/in/ananya-verma <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.72rem;"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-card-box">
+              <div class="contact-icon-wrap" style="color: #ffffff; background: rgba(255, 255, 255, 0.08);">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="contact-info-text">
+                <h4>GitHub Profile</h4>
+                <!-- Placeholder Link -->
+                <a href="https://github.com/ananya-verma" target="_blank" rel="noopener noreferrer">
+                  github.com/ananya-verma <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.72rem;"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-card-box">
+              <div class="contact-icon-wrap" style="color: var(--accent-emerald); background: rgba(16, 185, 129, 0.15);">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-info-text">
+                <h4>Location</h4>
+                <p>Jaipur, Rajasthan, India</p>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">JECRC University</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Contact Form -->
+          <div class="contact-form-wrap reveal">
+            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.4rem;">Send a Message</h3>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+              Have a question or collaboration proposal? Leave a message below.
+            </p>
+
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name *</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Rahul Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email *</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. rahul@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Student Project Collaboration">
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message *</label>
+                <textarea id="message" name="message" class="form-input" rows="4" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="submit-btn" style="width: 100%;">
+                <i class="fa-regular fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">
+            Ananya Verma
+          </div>
+          <p class="footer-sub">
+            B.Tech in Computer Science and Engineering &bull; JECRC University, Jaipur
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#contact">Contact</a>
+          <a href="resume.html">Resume</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Ananya Verma. Personal student portfolio for academic &amp; internship applications.
+        </div>
+        <button type="button" class="back-to-top-btn" id="back-to-top" aria-label="Scroll back to top">
+          <span>Back to Top</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-msg" id="toast" role="status" aria-live="polite">
+    <i class="toast-icon fa-solid fa-circle-check"></i>
+    <span id="toast-message">Notification</span>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>

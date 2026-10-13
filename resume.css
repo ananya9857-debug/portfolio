@@ -1,0 +1,277 @@
+/* ==========================================================================
+   RESUME STYLESHEET - ANANYA VERMA
+   B.Tech CSE Student | JECRC University
+   ========================================================================== */
+
+:root {
+  --resume-bg: #0b0f17;
+  --resume-paper: #121826;
+  --text-main: #f8fafc;
+  --text-sub: #94a3b8;
+  --text-muted: #64748b;
+  --border-line: rgba(255, 255, 255, 0.08);
+  --primary: #38bdf8;
+  --secondary: #6366f1;
+  --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-code: 'JetBrains Mono', monospace;
+}
+
+body.resume-page {
+  font-family: var(--font-family);
+  background-color: var(--resume-bg);
+  color: var(--text-main);
+  line-height: 1.6;
+  padding: 2.5rem 1rem 5rem 1rem;
+}
+
+/* Resume Toolbar */
+.resume-toolbar {
+  max-width: 860px;
+  margin: 0 auto 1.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.toolbar-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid var(--border-line);
+}
+
+.toolbar-btn-back {
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-main);
+}
+
+.toolbar-btn-back:hover {
+  background: rgba(255, 255, 255, 0.09);
+  color: #ffffff;
+}
+
+.toolbar-btn-print {
+  background: var(--primary);
+  color: #0b0f17;
+  border-color: var(--primary);
+}
+
+.toolbar-btn-print:hover {
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Resume Paper / Card */
+.resume-paper {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--resume-paper);
+  border: 1px solid var(--border-line);
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+}
+
+/* Resume Header */
+.resume-header {
+  border-bottom: 2px solid var(--border-line);
+  padding-bottom: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.resume-name {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.resume-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.85rem;
+}
+
+.resume-contact-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  font-size: 0.88rem;
+  color: var(--text-sub);
+}
+
+.resume-contact-bar a {
+  color: var(--text-sub);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.resume-contact-bar a:hover {
+  color: var(--primary);
+}
+
+/* Section Layout */
+.resume-section {
+  margin-bottom: 2.25rem;
+}
+
+.resume-section-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary);
+  border-bottom: 1px solid var(--border-line);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Timeline & Entries */
+.resume-entry {
+  margin-bottom: 1.35rem;
+}
+
+.resume-entry:last-child {
+  margin-bottom: 0;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.entry-role {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.entry-org {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-sub);
+}
+
+.entry-date {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary);
+  white-space: nowrap;
+}
+
+.entry-desc {
+  font-size: 0.9rem;
+  color: var(--text-sub);
+  margin-top: 0.35rem;
+  line-height: 1.6;
+}
+
+.entry-bullets {
+  margin-top: 0.45rem;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.entry-bullets li {
+  font-size: 0.88rem;
+  color: var(--text-sub);
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
+
+/* Skills Category Table / Grid */
+.resume-skills-block {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+.skill-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.skill-row-title {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.skill-row-items {
+  color: var(--text-sub);
+}
+
+/* --------------------------------------------------------------------------
+   PRINT STYLESHEET (CLEAN WHITE A4 RESUME FORMAT)
+   -------------------------------------------------------------------------- */
+@media print {
+  body.resume-page {
+    background: #ffffff !important;
+    color: #111827 !important;
+    padding: 0 !important;
+  }
+
+  .resume-toolbar {
+    display: none !important;
+  }
+
+  .resume-paper {
+    background: #ffffff !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    max-width: 100% !important;
+  }
+
+  .resume-header {
+    border-bottom: 2px solid #e5e7eb !important;
+  }
+
+  .resume-name {
+    color: #111827 !important;
+  }
+
+  .resume-title {
+    color: #0284c7 !important;
+  }
+
+  .resume-contact-bar,
+  .resume-contact-bar a,
+  .entry-desc,
+  .entry-bullets li,
+  .skill-row-items {
+    color: #374151 !important;
+  }
+
+  .resume-section-title {
+    color: #0369a1 !important;
+    border-bottom: 1px solid #e5e7eb !important;
+  }
+
+  .entry-role,
+  .skill-row-title {
+    color: #111827 !important;
+  }
+
+  .entry-date {
+    color: #0284c7 !important;
+  }
+}

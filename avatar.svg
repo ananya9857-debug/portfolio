@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Background & Lighting Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Circle with subtle glowing outline -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGradient)" stroke="url(#borderGradient)" stroke-width="3" filter="url(#softGlow)"/>
+  
+  <!-- Subtle coordinate geometric lines in background -->
+  <g opacity="0.12" stroke="#38bdf8" stroke-width="1.2">
+    <circle cx="200" cy="200" r="150" fill="none" stroke-dasharray="4,6"/>
+    <circle cx="200" cy="200" r="110" fill="none" stroke-dasharray="3,5"/>
+    <line x1="50" y1="200" x2="350" y2="200" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Student Developer Illustration -->
+  <g transform="translate(0, 15)">
+    <!-- Back Hair Shape -->
+    <path d="M 120 180 Q 90 270 135 320 Q 200 345 265 320 Q 310 270 280 180 Z" fill="url(#hairGradient)"/>
+
+    <!-- Professional Blazer / Collar -->
+    <path d="M 85 365 C 95 285, 140 260, 200 260 C 260 260, 305 285, 315 365 Z" fill="#1e293b" stroke="#334155" stroke-width="2.5"/>
+    
+    <!-- Inner Shirt / Top -->
+    <path d="M 160 260 L 200 315 L 240 260 Z" fill="#38bdf8" opacity="0.85"/>
+    <path d="M 170 260 L 200 300 L 230 260 Z" fill="#f8fafc"/>
+
+    <!-- Neck -->
+    <rect x="178" y="215" width="44" height="50" rx="8" fill="#fde047"/>
+
+    <!-- Face Shape -->
+    <ellipse cx="200" cy="180" rx="58" ry="68" fill="#fef08a"/>
+
+    <!-- Front Hair Style -->
+    <path d="M 142 175 C 138 105, 262 105, 258 175 C 240 130, 160 130, 142 175 Z" fill="#0f172a"/>
+    <path d="M 142 170 C 165 195, 195 190, 215 168 C 185 158, 155 158, 142 170 Z" fill="#1e1b4b"/>
+
+    <!-- Professional Glasses -->
+    <rect x="156" y="166" width="35" height="25" rx="6" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="2.5"/>
+    <rect x="209" y="166" width="35" height="25" rx="6" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="2.5"/>
+    <path d="M 191 177 H 209" stroke="#38bdf8" stroke-width="2.5"/>
+    <!-- Glint -->
+    <line x1="162" y1="171" x2="174" y2="183" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+    <line x1="215" y1="171" x2="227" y2="183" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Pleasant Smile -->
+    <path d="M 188 218 Q 200 226 212 218" fill="none" stroke="#ca8a04" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bottom Name Badge -->
+  <g transform="translate(200, 360)">
+    <rect x="-95" y="-18" width="190" height="36" rx="18" fill="#090d16" stroke="url(#borderGradient)" stroke-width="2"/>
+    <circle cx="-70" cy="0" r="5" fill="#10b981"/>
+    <text x="-52" y="5" font-family="'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#f8fafc">Ananya Verma</text>
+  </g>
+</svg>
